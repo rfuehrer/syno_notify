@@ -1,0 +1,6 @@
+# Ignore Finder artifacts on OSX
+.DS_Store
+
+# Ignore dynamic created files
+*.config
+
