@@ -61,8 +61,9 @@ The script is run with the message to be sent - nothing else ;)
 ### Shell Script
 
 1. Copy shell script and configuration file to shared volume (e.g. `control`) an your NAS. Remember the path to the shell script (e.g. `/volume1/control/syno_notify/`)
-2. Rename and edit the default configuration file to syno_notify.conf
-3. Proceed with scheduler configuration.
+2. Rename and edit the default configuration `syno_notify.config.sample` file to `syno_notify.conf`
+3. Enter your IFTTT magic key to variable `IFTTT_KEY`within the configuration file
+4. Proceed with scheduler configuration.
 
 ### Task (Scheduler)
 
